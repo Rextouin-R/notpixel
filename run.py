@@ -250,13 +250,6 @@ print(crayons.cyan('*,,,,,,,,,*****///////////(//***,,,,,,,,,,********/////(((((
 print(crayons.cyan('*,,,,,,,,,,,,*******************,,,,,,,,,,,,,,,,*******************,,,,,,,,,,,,,'))
 print(crayons.cyan('*.....,,,,,,,,,,,,,,,***********,,,,,,,,,,,,,,,,,,,,*,********,,,,,,,,,,,,,,,,,.'))
 print(crayons.cyan('*.........,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,..........'))
-    print(crayons.cyan('=============================================='))
-    print(crayons.cyan('         NOT PIXEL BOT | AIRDROP_UNLIMITED    '))
-    print(crayons.cyan('=============================================='))
-    print(crayons.cyan('Telegram Channel : @airdrop_unlimited         '))
-    print(crayons.cyan('Telegram chat    : unlimited_discussion       '))
-    print(crayons.cyan('=============================================='))
-
 def main(auth, account, proxy):
     headers = {'authorization': auth}
     session = get_session_with_proxy_and_retries(proxy)
