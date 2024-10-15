@@ -2,7 +2,7 @@
 
 ## install for TERMUX
 ```
-pkg update & & pkg upgrade
+pkg update && pkg upgrade -y
 ```
 ```
 pkg install libjpeg-turbo
@@ -34,7 +34,7 @@ nano data.txt
 pip install pillow
 ```
 ```
-pip install - r requirements.txt
+pip install -r requirements.txt
 ```
 ```
 LDFLAGS="-L/system/lib/" CFLAGS="-I/data/data/com.termux/files/usr/include/"
